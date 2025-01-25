@@ -1,0 +1,228 @@
+.popup-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+.log-a{
+    width: 40%;
+    height:90%; 
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.log-b{
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    margin: 20px;
+    font-family: sans-serif;
+}
+.form-container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: lightgray;
+    width: 531px;
+    height: 564px;
+}
+
+h2 {
+    text-align: start;
+    margin-bottom: 20px;
+}
+.w-img{
+    display: flex;
+    justify-content: space-between;
+}
+.w-img img{
+    background-color: white;
+    width: 30px;
+    height: 30px;
+}
+label {
+    display: flex;
+    margin-top: 10px;
+    color: grey;
+    font-weight: 300;
+}
+.inp {
+    width: 100%;
+    padding: 8px;
+    margin-top: 8px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    height: 29px;
+    width: 509px;
+    outline: none;
+    
+}
+.l-btn {
+    width: 120px;
+    padding: 8px;
+    border: none;
+    margin-top: 15px;
+    background-color: #288ec5;
+    color: white;
+    border-radius: 10px;
+    height: 45px;
+    margin-left: 2px;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+
+
+
+/* h2{
+    margin-top: 10px;
+}
+.inp-1{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.lab{
+    margin-top: 20px;
+}
+.inp-1 input{
+    border-radius: 10px;
+    margin-top: 20px;
+    height: 50px;
+    padding-left: 10px;
+}
+.inp-2{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+}
+.inp2-1{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.inp2-1 input{
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-right: 6px;
+    height:50px;
+    padding-left: 10px;
+}
+.inp2-1 select{
+    border-radius: 10px;
+    margin-top: 10px;
+    height:50px;
+    padding-left: 10px;
+}
+.inp-3{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.inp-3 textarea{
+    resize: none;
+    border-radius: 10px;
+    margin: 10px 0px 20px 0px;
+    padding: 10px;
+}
+.inp-4{
+    border-top: 1px;
+    border-top-style: dashed;
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+.inp4-2{
+    display: flex;
+    margin-bottom: 20px;
+}
+.inp4-cust{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-right: 6px;
+    height:50px;
+    padding-left: 10px;
+}
+.inp4-cust img{
+    width: 30px;
+    height: 30px;
+}
+.inp4-cust input{
+    border: none;
+    width: 100%;
+    outline: none;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+.inp4-cust select{
+    border: none;
+    width: 100%;
+    margin-bottom: 10px;
+    outline: none;
+}
+.inp-5{
+    border-top: 1px black;
+    border-top-style: dashed;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.inp-5 select{
+    border-radius: 10px;
+    margin-top: 10px;
+    height:50px;
+    padding-left: 10px;
+}
+.inp-6{
+    margin-top: 25px;
+    border-top: 1px ;
+    border-top-style: dashed;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.inp6-1{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.s1{
+    width: 100%;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.s2{
+    width: 10%;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.inp6-1 button{
+    width:80px;
+    color: gray;
+    background-color: white;
+}
+.inp-7{
+    border-top: 1px;
+    border-top-style: dashed;
+    margin-top: 25px;
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+}
+.inp-7 button{
+    margin: 20px 0px;
+    background-color: rgb(34, 32, 32);
+    color: rgb(202, 194, 194);
+    width: fit-content;
+    padding: 10px;
+} */
