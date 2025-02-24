@@ -42,4 +42,3 @@ const LoginPopup = ({ show, onClose }) => {
 };
 
 export default LoginPopup;
- 
